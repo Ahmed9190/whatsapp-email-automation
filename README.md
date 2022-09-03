@@ -17,7 +17,14 @@ There's many great whatsapp and email automation scripts available on Github; ho
 
 ### Built With
 
-- [![Puppeteer][pptr.dev]][puppeteer-url]{ height=200px }
+<!-- [pptr.dev]: https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png
+[puppeteer-url]: https://pptr.dev/
+[nodemailer.com]: https://nodemailer.com/nm_logo_200x136.png
+[nodemailer-url]: nodemailer.com
+[nodejs.org]: https://nodejs.org/static/images/logo.svg
+[nodejs-url]: https://nodejs.org/en/download/ -->
+
+- <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="200px">[puppeteer-url]
 - [![Nodemailer][nodemailer.com]][nodemailer-url]{ height=200px }
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
