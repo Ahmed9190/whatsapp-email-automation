@@ -22,6 +22,7 @@ class WhatsappSendFileCommander extends Commander {
     await whatsapp.sendFile(number, file_path);
 
     await Browser.close();
+    process.stdout.write(`Sent`);
   }
 }
 const whatsappSendFileCommander = new WhatsappSendFileCommander();

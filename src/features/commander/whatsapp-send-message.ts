@@ -22,6 +22,7 @@ class WhatsappSendFileCommander extends Commander {
     await whatsapp.sendMessage(number, message);
 
     await Browser.close();
+    process.stdout.write(`Sent`);
   }
 }
 

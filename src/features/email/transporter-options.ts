@@ -37,4 +37,4 @@ export class TransporterOptions {
   };
 }
 
-export type EmailHosts = "google" | "microsoft";
+export type EmailService = "google" | "microsoft";

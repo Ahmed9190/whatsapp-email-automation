@@ -3,12 +3,12 @@ import { envKeys } from "../../core/constants/env.constants";
 import { EncryptionHandler } from "../../core/handlers/encryption.handler";
 import { EnvFileHandler } from "../../core/handlers/env-file.handler";
 import { Email } from "../email/email";
-import { TransporterOptions, EmailHosts } from "../email/transporter-options";
+import { TransporterOptions, EmailService } from "../email/transporter-options";
 import { Command } from "./command";
 import { Commander, CommanderOptions } from "./commander";
 
 interface IEmailOptions extends CommanderOptions {
-  host: EmailHosts;
+  host: EmailService;
   to: string;
   file_path: string;
 }
@@ -29,7 +29,7 @@ class EmailCommander extends Commander {
 
     const emailService = EnvFileHandler.getEnvValue(
       envKeys.EMAIL_SERVICE
-    ) as EmailHosts;
+    ) as EmailService;
 
     const email = EnvFileHandler.getEnvValue(envKeys.EMAIL);
     const encryptedPassword = EnvFileHandler.getEnvValue(envKeys.PASSWORD);
@@ -50,12 +50,14 @@ class EmailCommander extends Commander {
     );
 
     const mailer: Email = new Email(transporterOptions);
-    mailer.sendAttachment({
+    await mailer.sendAttachment({
       to,
       subject,
       text,
       attachments: [{ path: file_path }],
     });
+
+    process.stdout.write(`Sent`);
   }
 }
 

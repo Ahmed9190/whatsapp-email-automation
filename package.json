@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "rm -rf dist/ && bash -c tsc --project tsconfig.build.json . && node dist/index.js",
+    "build": "rm -rf dist/ && bash -c tsc --project tsconfig.build.json .",
     "test": "npx jest",
     "dev": "nodemon ."
   },
