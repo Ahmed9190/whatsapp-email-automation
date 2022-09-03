@@ -1,9 +1,11 @@
+<a name="readme-top"></a>
 <br />
+
 <div align="center">
   <h3 align="center">Whatsapp and email automation</h3>
 
   <p align="center">
-    An awesome script that automate sending messages and files over smtp protocol or whatsapp
+    A script that automate sending messages and files over smtp protocol or whatsapp
   </p>
 </div>
 
@@ -11,7 +13,7 @@
 
 ## About The Project
 
-There's many great whatsapp and email automation scripts available on Github; however, I didn't find and script that automate both of them so I created this one.
+There's many great whatsapp and email automation scripts available on Github; however, I didn't find any script that automate both of them so I created this one.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
