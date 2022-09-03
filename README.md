@@ -17,8 +17,8 @@ There's many great whatsapp and email automation scripts available on Github; ho
 
 ### Built With
 
-- <a href="https://pptr.dev/"><img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="50px"></a>
-- <a href="nodemailer.com"><img src="https://nodemailer.com/nm_logo_200x136.png" height="50px"></a>
+- <a href="https://pptr.dev/" target="_blank"><img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="50px"></a>
+- <a href="nodemailer.com" target="_blank"><img src="https://nodemailer.com/nm_logo_200x136.png" height="50px"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -30,9 +30,8 @@ Follow next section to see how you can install this project locally
 
 ### Prerequisites
 
-- <a href="https://nodejs.org/en/download/"><img src="https://nodejs.org/static/images/logo.svg" height="50px"></a>
+- <a href="https://nodejs.org/en/download/" target="_blank"><img src="https://nodejs.org/static/images/logo.svg" height="50px"></a>
 
-- [![Node.js][nodejs.org]][nodejs-url]{ height=200px }
 - npm
   ```sh
   npm install npm@latest -g
@@ -93,7 +92,9 @@ node index.js password <password>
 > **Note**
 > If you use a google account, you don't need to type your password
 > Follow this tutorial to get a password
-> https://www.youtube.com/watch?v=thAP7Fvrql4&t=172s 12. Open whatsapp to scan QR then close the browser
+> https://www.youtube.com/watch?v=thAP7Fvrql4&t=172s
+
+12. Open whatsapp to scan QR then close the browser
 
     ```sh
     node index.js whatsapp_open
