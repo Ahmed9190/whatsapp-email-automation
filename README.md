@@ -55,32 +55,36 @@ Follow next section to see how you can install this project locally
    touch .env
    ```
 5. Enter your API in `.env`
+
    ```
     EMAIL_SERVICE=""
     EMAIL=""
     PASSWORD=""
     ENCRYPTION_KEY="#W7Vf6*VuZmmxwWt"
    ```
-6. You can change the encryption key if you want.
-7. Build Javascript code from Typescript code
+
+   > **Note**
+   > You can change the encryption key if you want.
+
+6. Build Javascript code from Typescript code
    ```sh
    npm run build
    ```
-8. Change directory to dist folder
+7. Change directory to dist folder
    ```sh
    cd dist
    ```
-9. Set the email service by replacing <service> by either **google** or **microsoft**
+8. Set the email service by replacing <service> by either **google** or **microsoft**
    ```sh
    node index.js email_service <service>
    ```
-10. Set email address by replacing <email> by your email address
+9. Set email address by replacing <email> by your email address
 
 ```sh
 node index.js email <email>
 ```
 
-11. Set password by replacing <password> by your password
+10. Set password by replacing <password> by your password
 
 ```sh
 node index.js password <password>
@@ -94,7 +98,7 @@ node index.js password <password>
 > Follow this tutorial to get a password
 > https://www.youtube.com/watch?v=thAP7Fvrql4&t=172s
 
-12. Open whatsapp to scan QR then close the browser
+11. Open whatsapp to scan QR then close the browser
 
     ```sh
     node index.js whatsapp_open
