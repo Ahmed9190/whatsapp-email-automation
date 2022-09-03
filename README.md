@@ -82,9 +82,9 @@ Follow next section to see how you can install this project locally
    ```
 9. Set email address by replacing <email> by your email address
 
-```sh
-node index.js email <email>
-```
+   ```sh
+   node index.js email <email>
+   ```
 
 10. Set password by replacing <password> by your password
 
@@ -101,7 +101,6 @@ node index.js password <password>
 > https://www.youtube.com/watch?v=thAP7Fvrql4&t=172s
 
 11. Open whatsapp to scan QR then close the browser
-
     ```sh
     node index.js whatsapp_open
     ```
