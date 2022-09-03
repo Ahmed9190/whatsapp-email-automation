@@ -88,9 +88,9 @@ Follow next section to see how you can install this project locally
 
 10. Set password by replacing <password> by your password
 
-```sh
-node index.js password <password>
-```
+   ```sh
+   node index.js password <password>
+   ```
 
 > **Note**
 > Don't worry your password will be encrypted
@@ -98,7 +98,7 @@ node index.js password <password>
 > **Note**
 > If you use a google account, you don't need to type your password
 > Follow this tutorial to get a password
-> https://www.youtube.com/watch?v=thAP7Fvrql4&t=172s
+> https://www.youtube.com/watch?v=thAP7Fvrql4
 
 11. Open whatsapp to scan QR then close the browser
     ```sh
