@@ -17,8 +17,8 @@ There's many great whatsapp and email automation scripts available on Github; ho
 
 ### Built With
 
-- [![Puppeteer][pptr.dev]][puppeteer-url]
-- [![Nodemailer][nodemailer.com]][nodemailer-url]
+- [![Puppeteer][pptr.dev]][puppeteer-url]{ height: 200px; }
+- [![Nodemailer][nodemailer.com]][nodemailer-url]{ height: 200px; }
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -30,7 +30,7 @@ Follow next section to see how you can install this project locally
 
 ### Prerequisites
 
-- [![Node.js][nodejs.org]][nodejs-url]
+- [![Node.js][nodejs.org]][nodejs-url]{ height: 200px; }
 - npm
   ```sh
   npm install npm@latest -g
