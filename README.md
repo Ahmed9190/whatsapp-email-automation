@@ -17,15 +17,8 @@ There's many great whatsapp and email automation scripts available on Github; ho
 
 ### Built With
 
-<!-- [pptr.dev]: https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png
-[puppeteer-url]: https://pptr.dev/
-[nodemailer.com]: https://nodemailer.com/nm_logo_200x136.png
-[nodemailer-url]: nodemailer.com
-[nodejs.org]: https://nodejs.org/static/images/logo.svg
-[nodejs-url]: https://nodejs.org/en/download/ -->
-
 - <a href="https://pptr.dev/"><img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="50px"></a>
-- [![Nodemailer][nodemailer.com]][nodemailer-url]{ height=200px }
+- <a href="nodemailer.com"><img src="https://nodemailer.com/nm_logo_200x136.png" height="50px"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -36,6 +29,8 @@ There's many great whatsapp and email automation scripts available on Github; ho
 Follow next section to see how you can install this project locally
 
 ### Prerequisites
+
+- <a href="https://nodejs.org/en/download/"><img src="https://nodejs.org/static/images/logo.svg" height="50px"></a>
 
 - [![Node.js][nodejs.org]][nodejs-url]{ height=200px }
 - npm
@@ -150,13 +145,3 @@ node index.js whatsapp_send_file number <number> file_path <file_path>
 > Please make sure that you receive **Sent** response in command line or terminal
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[pptr.dev]: https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png
-[puppeteer-url]: https://pptr.dev/
-[nodemailer.com]: https://nodemailer.com/nm_logo_200x136.png
-[nodemailer-url]: nodemailer.com
-[nodejs.org]: https://nodejs.org/static/images/logo.svg
-[nodejs-url]: https://nodejs.org/en/download/
